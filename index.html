@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding-Quiz</title> 
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!--Links to fonts-->
+    <script src="https://kit.fontawesome.com/cd00367dae.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+    <!-- Showcasing timer and high score html --> 
+    <header> 
+        <div id="Header"> 
+            <a id="score" href="highScore.html">View Scores !!!</a> 
+            <h2 id="Timer"></h2>
+        </div>
+    </header> 
+
+    <!-- Intro to Quiz  --> 
+    <div class="wrapper" id="intro"> 
+        <h2 class="Begin">Coding Quiz Challenge</h2> 
+        <p id="rules"> 
+            Try to answer the following code-related questions within the time
+          limit. Keep in mind that incorrect answers will penalize your
+          score/time by ten seconds!
+        </p> 
+        <button class="Startbtn" id="btnS" type="submit">Start the Quiz<i class="fas fa-exclamation"></i></button>
+    </div> 
+
+    <!-- Questions for the Quiz --> 
+
+    <div id="Quiz"> 
+        <div id="Q"> </div> 
+        <div id="Select"> 
+            <ul> 
+                <li><button type="button" class="option1 btn-choice" id="option1" onclick="checkA('1')">1.</button></li> 
+                <li><button type="button" class="option2 btn-choice" id="option2" onclick="checkA('2')">2.</button></li> 
+                <li><button type="button" class="option3 btn-choice" id="option3" onclick="checkA('3')">3.</button></li>
+                <li><button type="button" class="option4 btn-choice" id="option4" onclick="checkA('4')">4.</button></li>
+            </ul>
+        </div>
+          
+       
+            
+    </div>  
+    
+     <!-- For answer correct or wrong -->
+       <div id="output"></div>
+
+    <!-- Showing Score information --> 
+
+    <div id="lastScore"> 
+        <h2 id="lastMessage">End of Quiz</h2>
+        <div id="Results"></div> 
+        
+        <!-- Creating form to enter name for score --> 
+
+
+        <form> 
+            <div id="Name"> 
+                <label for="Users" id="name">Enter Name</label><i class="fas fa-exclamation"></i>
+                <input type="text" id="Info"> 
+                <!-- <input type="button" id="UserInfo" class="btnSub" onclick="location.href='highScore.html';" value="submit"/> --> 
+                <input type="button" id="UserInfo" class="btnSub" onclick="test()" value="submit"/>
+            </div>
+        </form>
+    </div>
+
+  
+        
+    <script src="assets/code/questions.js"></script>
+    <script src="assets/code/code.js"></script>       
+</body>  
+
+
+</html>
