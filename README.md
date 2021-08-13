@@ -18,9 +18,9 @@
 # **Description** 
   In this project is a coding quiz challenge test your knowledge againts the time !!! 
 
-  ![](images/Screenshot%20(35).png) 
+  ![](assets/images/Screenshot%20(35).png) 
 
-  ![](images/Screenshot%20(36).png)
+  ![](assets/images/Screenshot%20(36).png)
   
 
 # **Installation** 
