@@ -29,7 +29,9 @@ In order to install one can copy the repository through github once copy install
 
 # **Usage** 
         
- In order to use go to the index html and open it in your web browser once open click Start!
+ In order to use go to the index html and open it in your web browser once open click Start! 
+ 
+ https://ronoraz.github.io/Coding-Quiz/ open the link to test your knowledge !!!
 
 # **Contribution** 
 
