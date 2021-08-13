@@ -17,14 +17,11 @@
 
 # **Description** 
   In this project is a coding quiz challenge test your knowledge againts the time !!! 
- 
-   
- 
- ![](images/Screentshot%20(35).png) 
- 
- 
- ![](images/Screentshot%20(36).png) 
+  
 
+  ![](assets/images/Screenshot%20(35).png) 
+
+  ![](assets/images/Screenshot%20(36).png)
   
 
 # **Installation** 
@@ -33,7 +30,9 @@ In order to install one can copy the repository through github once copy install
 
 # **Usage** 
         
- In order to use go to the index html and open it in your web browser once open click Start!
+ In order to use go to the index html and open it in your web browser once open click Start! 
+ 
+ https://ronoraz.github.io/Coding-Quiz/ open the link to test your knowledge !!!
 
 # **Contribution** 
 
