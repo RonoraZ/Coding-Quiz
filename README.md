@@ -17,10 +17,14 @@
 
 # **Description** 
   In this project is a coding quiz challenge test your knowledge againts the time !!! 
+ 
+   
+ 
+ ![](images/Screentshot%20(35).png) 
+ 
+ 
+ ![](images/Screentshot%20(36).png) 
 
-  ![](images/Screenshot%20(35).png) 
-
-  ![](images/Screenshot%20(36).png)
   
 
 # **Installation** 
